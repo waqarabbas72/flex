@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(1214.jpg);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    max-width: 1300px;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.login{
+    background-color: transparent;
+    color:rgb(103, 115, 126);
+    margin-right: 50px;
+}
+
+button {
+    color: rgb(233, 240, 247);
+    background-color: blueviolet;
+    padding: 10px 1px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.signup {
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(254, 254, 255);
+}
+
+a {
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(103, 115, 126);
+}
+
+.main {
+    width: 30%;
+    margin:50px 0 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 1300px; */
+}
+
+h3{
+    color: rgb(103, 115, 126);
+    margin-bottom: 20px;
+}
+
+.p-1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.p-2{
+    color: blueviolet;
+}
+
+div.last{
+    margin-top: 20px;
+
+}
+
+.try{
+    color: white;
+    margin: 5px;
+}
+
+.btn-l{
+    color: white;
+    margin: 5px;
+    
+}
+
+#btn-l{
+    color: white;
+    margin: 5px;
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    
+}
